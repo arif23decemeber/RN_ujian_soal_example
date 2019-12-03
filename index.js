@@ -200,7 +200,7 @@ class Soal extends Component {
       this.state.jawaban.push({ id_soal : id, jawaban: jawaban, tombol : id_tombol});
       //console.log('data dimasukan lagi');
     }
-    this.right(id);
+    this.setState({ id_posistion : id });
 
   }
 
